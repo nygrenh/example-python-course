@@ -24,7 +24,7 @@ class Matkalaukku:
 
     def lisaa_tavara(self, tavara):
         if self.yhteispaino() + tavara.paino <= self.__maksimipaino:
-            self.__tavarat.append(tavara)
+            # self.__tavarat.append(tavara)
 
     def tulosta_tavarat(self):
         for tavara in self.__tavarat:
