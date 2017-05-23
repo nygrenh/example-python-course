@@ -1,0 +1,85 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BasicTest	../test/test_basic.py	/^class BasicTest(unittest.TestCase):$/;"	kind:class	line:11
+Lastiruuma	../src/__main__.py	/^from .lastiruuma import Lastiruuma$/;"	kind:namespace	line:3
+Matkalaukku	../src/__main__.py	/^from .matkalaukku import Matkalaukku$/;"	kind:namespace	line:2
+TMCResult	../tmc/result.py	/^class TMCResult(TextTestResult):$/;"	kind:class	line:10
+TMCResult	../tmc/runner.py	/^from .result import TMCResult$/;"	kind:namespace	line:2
+TMCTestRunner	../tmc/__init__.py	/^from .runner import TMCTestRunner$/;"	kind:namespace	line:2
+TMCTestRunner	../tmc/__main__.py	/^from .runner import TMCTestRunner$/;"	kind:namespace	line:2
+TMCTestRunner	../tmc/runner.py	/^class TMCTestRunner(TextTestRunner):$/;"	kind:class	line:8
+Tavara	../src/__main__.py	/^from .tavara import Tavara$/;"	kind:namespace	line:1
+TestLoader	../tmc/runner.py	/^from unittest import TextTestRunner, TestLoader$/;"	kind:namespace	line:1
+TestProgram	../tmc/__main__.py	/^from unittest import TestProgram$/;"	kind:namespace	line:1
+TextTestResult	../tmc/result.py	/^from unittest.runner import TextTestResult$/;"	kind:namespace	line:1
+TextTestRunner	../tmc/runner.py	/^from unittest import TextTestRunner, TestLoader$/;"	kind:namespace	line:1
+__init__	../tmc/result.py	/^    def __init__(self, stream, descriptions, verbosity):$/;"	kind:member	line:12
+__init__	../tmc/runner.py	/^    def __init__(self, *args, **kwargs):$/;"	kind:member	line:14
+__init__.py	../__init__.py	1;"	kind:file	line:1
+__init__.py	../src/__init__.py	1;"	kind:file	line:1
+__init__.py	../test/__init__.py	1;"	kind:file	line:1
+__init__.py	../tmc/__init__.py	1;"	kind:file	line:1
+__main__.py	../src/__main__.py	1;"	kind:file	line:1
+__main__.py	../tmc/__main__.py	1;"	kind:file	line:1
+_name_test	../tmc/points.py	/^def _name_test(test):$/;"	kind:function	line:46
+_name_test	../tmc/result.py	/^from .points import _parse_points, _name_test$/;"	kind:namespace	line:2
+_name_test	../tmc/runner.py	/^from .points import _parse_points, _name_test$/;"	kind:namespace	line:3
+_parse_points	../tmc/points.py	/^def _parse_points(test):$/;"	kind:function	line:36
+_parse_points	../tmc/result.py	/^from .points import _parse_points, _name_test$/;"	kind:namespace	line:2
+_parse_points	../tmc/runner.py	/^from .points import _parse_points, _name_test$/;"	kind:namespace	line:3
+addError	../tmc/result.py	/^    def addError(self, test, err):$/;"	kind:member	line:26
+addFailure	../tmc/result.py	/^    def addFailure(self, test, err):$/;"	kind:member	line:22
+addResult	../tmc/result.py	/^    def addResult(self, test, status, err=None):$/;"	kind:member	line:30
+addSuccess	../tmc/result.py	/^    def addSuccess(self, test):$/;"	kind:member	line:18
+any_contains	../tmc/utils.py	/^def any_contains(needle, haystacks):$/;"	kind:function	line:26
+atexit	../tmc/result.py	/^import atexit$/;"	kind:namespace	line:3
+available_points	../tmc/runner.py	/^    def available_points(self):$/;"	kind:member	line:21
+basic.py	../src/basic.py	1;"	kind:file	line:1
+chain	../tmc/runner.py	/^from itertools import chain$/;"	kind:namespace	line:4
+defaultdict	../tmc/points.py	/^from collections import defaultdict$/;"	kind:namespace	line:2
+fail	../tmc/utils.py	/^    def fail(*args, **kwargs):$/;"	kind:function	line:9
+get_stderr	../tmc/utils.py	/^def get_stderr():$/;"	kind:function	line:22
+get_stdout	../test/test_basic.py	/^from tmc.utils import load, get_stdout$/;"	kind:namespace	line:6
+get_stdout	../tmc/utils.py	/^def get_stdout():$/;"	kind:function	line:18
+importlib	../tmc/utils.py	/^import importlib$/;"	kind:namespace	line:1
+isclass	../tmc/points.py	/^from inspect import isclass, isfunction$/;"	kind:namespace	line:1
+isfunction	../tmc/points.py	/^from inspect import isclass, isfunction$/;"	kind:namespace	line:1
+json	../tmc/result.py	/^import json$/;"	kind:namespace	line:4
+json	../tmc/runner.py	/^import json$/;"	kind:namespace	line:5
+load	../test/test_basic.py	/^from tmc.utils import load, get_stdout$/;"	kind:namespace	line:6
+load	../tmc/utils.py	/^def load(pkg, method, err=None):$/;"	kind:function	line:5
+m	../src/__main__.py	/^m = Matkalaukku(3)$/;"	kind:variable	line:8
+m2	../src/__main__.py	/^m2 = Matkalaukku(2)$/;"	kind:variable	line:20
+m3	../src/__main__.py	/^m3 = Matkalaukku(10000)$/;"	kind:variable	line:23
+main	../src/basic.py	/^def main():$/;"	kind:function	line:1
+main	../test/test_basic.py	/^main = load('src.basic', 'main')$/;"	kind:variable	line:7
+main	../tmc/__main__.py	/^main = TestProgram$/;"	kind:variable	line:10
+patch	../test/test_basic.py	/^from unittest.mock import patch$/;"	kind:namespace	line:2
+point_register	../tmc/points.py	/^point_register = {'suite': defaultdict(list), 'test': defaultdict(list)}$/;"	kind:variable	line:4
+points	../test/test_basic.py	/^from tmc import points$/;"	kind:namespace	line:4
+points	../tmc/__init__.py	/^from .points import points$/;"	kind:namespace	line:1
+points	../tmc/points.py	/^def points(*points):$/;"	kind:function	line:16
+points.py	../tmc/points.py	1;"	kind:file	line:1
+points_wrapper	../tmc/points.py	/^    def points_wrapper(o):$/;"	kind:function	line:18
+qualifier	../tmc/points.py	/^def qualifier(test):$/;"	kind:function	line:7
+r	../src/__main__.py	/^r = Lastiruuma(10)$/;"	kind:variable	line:26
+result.py	../tmc/result.py	1;"	kind:file	line:1
+resultclass	../tmc/runner.py	/^    resultclass = TMCResult$/;"	kind:variable	line:12
+results	../tmc/result.py	/^results = []$/;"	kind:variable	line:7
+run	../tmc/runner.py	/^    def run(self, test):$/;"	kind:member	line:17
+runner.py	../tmc/runner.py	1;"	kind:file	line:1
+save_points	../tmc/points.py	/^def save_points(o, points, dst):$/;"	kind:function	line:11
+startTest	../tmc/result.py	/^    def startTest(self, test):$/;"	kind:member	line:15
+sys	../tmc/__main__.py	/^import sys$/;"	kind:namespace	line:3
+sys	../tmc/utils.py	/^import sys$/;"	kind:namespace	line:2
+t	../src/__main__.py	/^t = Tavara("kivi", 1)$/;"	kind:variable	line:5
+test_basic.py	../test/test_basic.py	1;"	kind:file	line:1
+test_prints_correct_sum	../test/test_basic.py	/^    def test_prints_correct_sum(self):$/;"	kind:member	line:13
+traceback	../tmc/result.py	/^import traceback$/;"	kind:namespace	line:5
+unittest	../test/test_basic.py	/^import unittest$/;"	kind:namespace	line:1
+utils.py	../tmc/utils.py	1;"	kind:file	line:1
+write_output	../tmc/result.py	/^    def write_output():$/;"	kind:member	line:50
